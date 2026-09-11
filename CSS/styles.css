@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: #f3b6b0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  /*   margin-bottom: 15rem; */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  /*   justify-content: center; */
+nav a {
+  text-decoration: none;
+  color: #f3b6b0;
+  font-size: 1.1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  /*  how do we get it vertically centered? -> box model. */
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.button1,
+.button2 {
+  text-decoration: none;
+  color: black;
+  display: block;
+  /*   width: cover; */
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #fbd44f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
